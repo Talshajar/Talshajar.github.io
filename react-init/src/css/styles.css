@@ -1516,7 +1516,7 @@ nav {
       text-align: left; } }
 
 .portfolio-fixed {
-  background: url("../images/scenic_view_of_foggy_forest.jpeg");
+  background: #ffde59;
   background-size: cover;
   display: flex;
   align-items: center;
