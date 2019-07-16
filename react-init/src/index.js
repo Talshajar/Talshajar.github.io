@@ -1,11 +1,12 @@
-    
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './css/styles.css'
 import App from './App';
-import registerServiceWorker from './serviceWorker';
-import { skills, eduList} from './data/datasource';
+import registerServiceWorker from './registerServiceWorker';
+import { skills, eduList, projectList } from './data/datasource';
 
-ReactDOM.render(<App skills={skills} eduList={eduList} />, document.getElementById('root'));
+ReactDOM.render(
+<App skills={skills} eduList={eduList} projectList={projectList} />
+, document.getElementById('root'));
 registerServiceWorker();
