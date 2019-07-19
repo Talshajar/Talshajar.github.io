@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import superb from 'superb'
+import TextLoop from 'react-text-loop';
 import weekday from '../utils/weekday';
-import words from '../utils/words.json';
+
 
 class Home extends Component {
 
@@ -13,7 +13,8 @@ class Home extends Component {
         return (
             <div>
                <h1>Rocio Chavoya</h1>
-               <p><strong>Have a nice <span ref="word">{superb.words}</span> {weekday()}</strong></p>
+               <TextLoop interval={1500} children={["Developer Front End", "UX Designer", "Digital Marketing", "Visual Merchandiser"]} />
+               <p><strong>Have a nice {weekday()}</strong></p>
             </div>
         )  
     }

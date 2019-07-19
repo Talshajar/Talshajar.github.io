@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './Header';
+import Navigation from '../components/Navigation';
 import Home from './Home';
 import Summary from './Summary';
 import ContactInfo from './ContactInfo';
@@ -17,6 +18,8 @@ class PortfolioContent extends Component {
                 
                 <Header/>
 
+                <Navigation />
+
                 <Home />
 
                 <Summary/>
@@ -29,7 +32,7 @@ class PortfolioContent extends Component {
                 
                 <EducationHistory eduList={eduList}/>
 
-                <SuperProjects  projectList={ projectList} />
+<href name="Projects"> <SuperProjects  projectList={ projectList} /> </href>
             </div>
         )  
     }
