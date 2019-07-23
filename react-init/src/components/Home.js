@@ -13,7 +13,7 @@ class Home extends Component {
         return (
             <div>
                <h1>Rocio Chavoya</h1>
-               <TextLoop interval={1500} children={["Developer Front End", "UX Designer", "Digital Marketing", "Visual Merchandiser"]} />
+               <TextLoop interval={1500} children={["Front End Developer", "UX Designer", "User Researcher", "Digital Marketer", "Visual Merchandiser"]} />
                <p><strong>Have a nice {weekday()}</strong></p>
             </div>
         )  

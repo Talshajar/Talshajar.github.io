@@ -1,6 +1,7 @@
 import React from "react";
-import { BrowserRouter , Link } from 'react-router-dom';
+import { BrowserRouter  } from 'react-router-dom';
 import { MDBNav, MDBNavItem, MDBNavLink } from "mdbreact";
+import { HashLink as Link  } from 'react-router-hash-link';
 
 
 
@@ -10,14 +11,23 @@ const Navigation = () => (
 
     <MDBNav className="justify-content-center">
       <MDBNavItem>
-        <MDBNavLink> <Link to="/Projects"> About me </Link> </MDBNavLink>
+            <MDBNavLink> 
+                <Link to={"#aboutMeId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > About me </Link>
+            </MDBNavLink>
       </MDBNavItem>
+
       <MDBNavItem>
-        <MDBNavLink to="#!"> Projects </MDBNavLink>
+            <MDBNavLink> 
+                <Link to={"#superProjectsId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Projects </Link>
+            </MDBNavLink>
       </MDBNavItem>
+
       <MDBNavItem>
-        <MDBNavLink to="#!"> Contact </MDBNavLink>
+             <MDBNavLink> 
+                <Link to={"#superProjectsId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Get in touch </Link>
+            </MDBNavLink>
       </MDBNavItem>
+
       <MDBNavItem>
         <MDBNavLink to="#!"> Blog </MDBNavLink>
       </MDBNavItem>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { genericHashLink } from 'react-router-hash-link';
 
 import Header from './Header';
 import Navigation from '../components/Navigation';
@@ -32,7 +33,7 @@ class PortfolioContent extends Component {
                 
                 <EducationHistory eduList={eduList}/>
 
-<href name="Projects"> <SuperProjects  projectList={ projectList} /> </href>
+                <SuperProjects  projectList={ projectList} />
             </div>
         )  
     }

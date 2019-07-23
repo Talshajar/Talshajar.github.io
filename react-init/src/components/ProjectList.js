@@ -14,7 +14,7 @@ class SuperProjects extends Component {
 
   render() {   
     return (
-      <section>
+      <section id="superProjectsId">
         <h4>Proyectos</h4>
         <div className="skills-list">
 
