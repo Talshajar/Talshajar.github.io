@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import PortfolioFixed from './components/PortfolioFixed';
 import PortfolioContent from './components/PortfolioContent';
 
+
 class App extends Component {
   render() {
     const { skills, eduList, projectList } = this.props

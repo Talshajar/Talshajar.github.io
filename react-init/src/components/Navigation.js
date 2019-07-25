@@ -10,6 +10,12 @@ const Navigation = () => (
   <BrowserRouter>
 
     <MDBNav className="justify-content-center">
+       <MDBNavItem>
+            <MDBNavLink> 
+                <Link to={"#HomeId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Home </Link>
+            </MDBNavLink>
+      </MDBNavItem>
+
       <MDBNavItem>
             <MDBNavLink> 
                 <Link to={"#aboutMeId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > About me </Link>

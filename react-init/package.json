@@ -8,10 +8,12 @@
     "mdbreact": "^4.18.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-particles-js": "^2.7.0",
     "react-router-dom": "^5.0.1",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.0.1",
     "react-text-loop": "^2.0.2",
+    "styled-components": "^4.3.2",
     "superb": "^4.0.0"
   },
   "scripts": {
