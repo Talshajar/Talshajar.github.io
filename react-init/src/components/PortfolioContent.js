@@ -16,7 +16,7 @@ import styled from 'styled-components';
 const MainHeaderStyled = styled.div`
 color: black;
 height: 80px;
-
+background-color: white;
 width: 55%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 right: 0; /* Posicionamos la cabecera al lado izquierdo */
 top: 0; /* Posicionamos la cabecera pegada arriba */

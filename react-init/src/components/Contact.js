@@ -1,14 +1,29 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
+import styled from 'styled-components';
+
+const StyledContact = styled.div`
+display: flex;
+justify-content: center;
+color: #A5677A;
+`
+
+const StyledInput = styled.label`
+font-size: 1.25em;
+color: #bbb;
+font-weight: 300;
+`
 
 const ContactPage = () => {
   return (
-    <MDBContainer>
+    <StyledContact>
+    <MDBContainer className="justify-content-center">
       <MDBRow>
         <MDBCol md="6">
           <form>
-            <p className="h5 text-center mb-4">Get in touch</p>
+            <h4 id="ContactPageId">Get in touch</h4>
             <div className="grey-text">
+              <StyledInput>
               <MDBInput
                 label="Your name"
                 icon="user"
@@ -42,9 +57,10 @@ const ContactPage = () => {
                 label="Your message"
                 icon="pencil-alt"
               />
+              </StyledInput>
             </div>
             <div className="text-center">
-              <MDBBtn outline color="black">
+              <MDBBtn outline color="#A5677A">
                 Send <MDBIcon far icon="paper-plane" className="ml-1" />
               </MDBBtn>
             </div>
@@ -52,6 +68,7 @@ const ContactPage = () => {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
+    </StyledContact>
   );
 };
 

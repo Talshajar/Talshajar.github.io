@@ -31,7 +31,8 @@ nav {
       text-align: left; } }
 
 .portfolio-fixed {
-  background: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+  /* background: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif"); */
+  background: #A5677A;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -51,6 +52,7 @@ nav {
 
 .portfolio-fixed img {
   max-width: 200px;
+  max-height: 200px;
   border-radius: 50%;
   display: block;
   margin: 10px auto; }
@@ -61,13 +63,13 @@ nav {
   border-radius: 50%;
   display: block;
   margin: 10px auto;
-  display: flex;
-  align-items: left;
-  align-content: left; }
+  display: flex; }
 
 .portfolio-fixed > * {
   text-align: center;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  justify-self: center;
+  position: relative; }
 
 .portfolio-fixed h1 {
   font-weight: 500;
@@ -77,6 +79,7 @@ nav {
   color: #ccc;
   font-weight: 300;
   margin-top: 0; }
+
 
 header {
   padding: 20px 0 15px;
@@ -105,6 +108,16 @@ section h4 {
   background: #ededed;
   margin: 5px 5px 5px 0px;
   color: #4F3C5F; }
+ 
+content {
+    display: flex;
+    justify-content: center;
+}
+
+div.col-md-6 {
+  display: flex;
+  justify-content: center;
+}
 
 .contactinfo__single {
   line-height: initial;
