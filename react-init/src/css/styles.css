@@ -31,7 +31,7 @@ nav {
       text-align: left; } }
 
 .portfolio-fixed {
-  background: black;
+  background: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -54,6 +54,16 @@ nav {
   border-radius: 50%;
   display: block;
   margin: 10px auto; }
+
+.ImageProject {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  display: flex;
+  align-items: left;
+  align-content: left; }
 
 .portfolio-fixed > * {
   text-align: center;

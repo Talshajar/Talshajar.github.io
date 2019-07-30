@@ -5,11 +5,13 @@ import Header from './Header';
 import Navigation from '../components/Navigation';
 import Home from './Home';
 import Summary from './Summary';
-import ContactInfo from './ContactInfo';
 import SkillsList from './SkillsList';
 import EducationHistory from './EducationHistory';
 import SuperProjects from './ProjectList';
+import ContactPage from '../components/Contact';
+import FooterPage from '../components/Footer';
 import styled from 'styled-components';
+
 
 const MainHeaderStyled = styled.div`
 color: black;
@@ -49,7 +51,9 @@ class PortfolioContent extends Component {
 
                 <SuperProjects  projectList={ projectList} />
 
+                <ContactPage />
 
+                <FooterPage />
             </div>
         )  
     }

@@ -30,7 +30,7 @@ const Navigation = () => (
 
       <MDBNavItem>
              <MDBNavLink> 
-                <Link to={"#superProjectsId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Get in touch </Link>
+                <Link to={"#ContactPageId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Get in touch </Link>
             </MDBNavLink>
       </MDBNavItem>
 

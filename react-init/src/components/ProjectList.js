@@ -12,9 +12,11 @@ class SuperProjects extends Component {
     return list;
   }
 
+  
+
   render() {   
     return (
-      <section id="superProjectsId">
+      <section  id="superProjectsId" >
         <h4>Proyectos</h4>
         <div className="skills-list">
 
@@ -27,3 +29,8 @@ class SuperProjects extends Component {
 }
 
 export default SuperProjects;
+
+
+
+
+
