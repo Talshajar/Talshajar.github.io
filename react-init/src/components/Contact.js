@@ -1,75 +1,70 @@
-import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
-import styled from 'styled-components';
+import React, { Component } from "react";
+import { MDBContainer, MDBInput, MDBBtn, MDBModal, MDBModalHeader, MDBModalBody, MDBIcon } from "mdbreact";
 
-const StyledContact = styled.div`
-display: flex;
-justify-content: center;
-color: #A5677A;
-`
 
-const StyledInput = styled.label`
-font-size: 1.25em;
-color: #bbb;
-font-weight: 300;
-`
+class ContactPages extends Component {
+  state = {
+    modal: false
+  };
 
-const ContactPage = () => {
-  return (
-    <StyledContact>
-    <MDBContainer className="justify-content-center">
-      <MDBRow>
-        <MDBCol md="6">
-          <form>
-            <h4 id="ContactPageId">Get in touch</h4>
-            <div className="grey-text">
-              <StyledInput>
-              <MDBInput
-                label="Your name"
-                icon="user"
-                group
-                type="text"
-                validate
-                error="wrong"
-                success="right"
-              />
-              <MDBInput
-                label="Your email"
-                icon="envelope"
-                group
-                type="email"
-                validate
-                error="wrong"
-                success="right"
-              />
-              <MDBInput
-                label="Subject"
-                icon="tag"
-                group
-                type="text"
-                validate
-                error="wrong"
-                success="right"
-              />
-              <MDBInput
-                type="textarea"
-                rows="2"
-                label="Your message"
-                icon="pencil-alt"
-              />
-              </StyledInput>
-            </div>
-            <div className="text-center">
-              <MDBBtn outline color="#A5677A">
-                Send <MDBIcon far icon="paper-plane" className="ml-1" />
+  toggle = () => {
+    this.setState({
+      modal: !this.state.modal
+    });
+  };
+
+  logValue = value => {
+    console.log(value);
+  };
+
+  render() {
+    return (
+     <section>
+      <MDBContainer >
+        <MDBBtn color="#e0e0e0 grey lighten-2" onClick={this.toggle} >
+          Let's get in touch!
+        </MDBBtn>
+        <MDBModal
+          isOpen={this.state.modal}
+          toggle={this.toggle}
+          size="md"
+          cascading
+        >
+          <MDBModalHeader
+            toggle={this.toggle}
+            titleClass="d-inline title"
+            className="text-center #e0e0e0 grey lighten-2 black-text"
+          >
+            <MDBIcon icon="pencil-alt" />
+            Contact From
+          </MDBModalHeader>
+          <MDBModalBody>
+            <MDBInput label="Your name"  />
+            <MDBInput label="Your email"  iconClass="dark-grey" />
+
+            <MDBInput
+              label="Your message"
+              type="textarea"
+              rows="2"
+              icon="pencil-alt"
+              iconClass="dark-grey"
+            />
+            <div className="text-center mt-1-half">
+              <MDBBtn
+                color="#e0e0e0 grey lighten-2"
+                className="mb-2"
+                onClick={this.toggle}
+              >
+                send
+                <MDBIcon icon="paper-plane" className="ml-1" />
               </MDBBtn>
             </div>
-          </form>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
-    </StyledContact>
-  );
-};
+          </MDBModalBody>
+        </MDBModal>
+      </MDBContainer>
+      </section>
+    );
+  }
+}
 
-export default ContactPage;
+export default ContactPages;

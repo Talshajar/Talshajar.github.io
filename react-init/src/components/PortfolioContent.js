@@ -44,6 +44,8 @@ class PortfolioContent extends Component {
                 </MainBodyStyled>                
 
                 <Summary/>
+
+                <ContactPage />
                 
                 <SkillsList skills={skills}/>
                 
@@ -51,7 +53,7 @@ class PortfolioContent extends Component {
 
                 <SuperProjects  projectList={ projectList} />
 
-                <ContactPage />
+               
 
                 <FooterPage />
             </div>

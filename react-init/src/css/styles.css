@@ -80,6 +80,12 @@ nav {
   font-weight: 300;
   margin-top: 0; }
 
+ .textloop {
+  text-align: center;
+  justify-self: center;
+  position: relative;
+ } 
+
 
 header {
   padding: 20px 0 15px;
@@ -94,6 +100,11 @@ section {
   color: #bbb;
   margin: 0 auto;
   font-weight: 300; }
+
+.modalId  {
+  display: inline-block;
+  align-content: center;  
+}
 
 section h4 {
   color: #A5677A; }

@@ -44,7 +44,7 @@ export const projectList = [
   },
   {
     projet: 'Organa',
-    poster: 'https://media.licdn.com/dms/image/C5622AQEiJ0-tFnzxtw/feedshare-shrink_8192/0?e=1567641600&v=beta&t=_CNbUaU4bPoUZZZzKm_YtnrtG2F-WoheD3mt3J-t1Dk',
+    poster: 'https://drive.google.com/uc?export=view&id=1OxalmM2IysHMwCvoUO0FqZOei3Kf0kYo',
     resume: 'Web app with user registration, authentication, creation, reading, updating and deletion of content in real time.',
     technologies: 'Firebase, Vanilla JS',
   },
