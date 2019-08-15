@@ -7,8 +7,9 @@ import Home from './Home';
 import Summary from './Summary';
 import SkillsList from './SkillsList';
 import EducationHistory from './EducationHistory';
-import SuperProjects from './ProjectList';
-import ContactPage from '../components/Contact';
+import MyProjects from '../components/MyProjects';
+// import SuperProjects from './ProjectList';
+// import ContactPage from '../components/Contact';
 import FooterPage from '../components/Footer';
 import styled from 'styled-components';
 
@@ -30,7 +31,11 @@ margin-left:330px;
 
 class PortfolioContent extends Component {
     render() {
-        const { skills, eduList ,  projectList} = this.props
+        const { 
+            skills, 
+            eduList ,  
+            // projectList
+        } = this.props
         return (
             <div className="portfolio-content">
 
@@ -45,13 +50,15 @@ class PortfolioContent extends Component {
 
                 <Summary/>
 
-                <ContactPage />
+                {/* <ContactPage /> */}
                 
                 <SkillsList skills={skills}/>
                 
                 <EducationHistory eduList={eduList}/>
 
-                <SuperProjects  projectList={ projectList} />
+                <MyProjects />
+
+                {/* <SuperProjects  projectList={ projectList} /> */}
 
                
 

@@ -13,7 +13,7 @@ const FooterPage = () => {
             </p>
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">SOCIAL NETWORKS:</h5>
+            <h5 className="title">Redes Sociales:</h5>
             <ul>
               <li className="list-unstyled">
                 <a href="https://www.linkedin.com/in/rociochavoya/"> <i class="fab fa-linkedin"></i> LinkedIn  </a> 
@@ -23,9 +23,6 @@ const FooterPage = () => {
               </li>
               <li className="list-unstyled">
                 <a href="https://twitter.com/ChavoyaRocio"> <i class="fab fa-twitter-square"></i> Twitter</a>  
-              </li>
-              <li className="list-unstyled">
-                <a href="https://www.linkedin.com/posts/rociochavoya_mi-curriculum-activity-6562067349548204032-uhFi"> <i class="fas fa-download"></i>  CV </a>
               </li>
             </ul>
           </MDBCol>

@@ -7,7 +7,11 @@ class Summary extends Component {
         return (
             <section id="aboutMeId">
                 <h4>Resumen</h4>
-                <p> If you are interested in my work, please fell free to contact me. I'll be glad to know more about you and your project. <p><strong>Have a nice {weekday()}</strong></p>  </p> 
+                <p> Soy desarrolladora Front End. Mi background en Mercadotecnia y visual merchandising,
+                     aporta a mi carrera en tecnologia, la visión de atención a los detalles para que 
+                     los productos logren conectar con las necesidades de los usuarios.
+                     Si estas interesado en mi trabajo no dudes en mandarme un mensaje a contact@rociochavoya.com <p>
+                         <strong>Have a nice {weekday()}</strong></p>  </p> 
                
             </section>
         )  

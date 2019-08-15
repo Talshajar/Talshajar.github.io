@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import Project from './Project';
+
+import Project from '../components/Project';
 
 // import EduTitle component
 
