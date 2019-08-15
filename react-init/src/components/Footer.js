@@ -3,13 +3,13 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 const FooterPage = () => {
   return (
-    <MDBFooter color="grey" className="font-small pt-4 mt-4">
+    <MDBFooter color="grey" className="font-small pt-4 mt-4" >
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">SPECIAL THANKS:</h5>
+            <h5 className="title" id="ContactId">Especiales gracias:</h5>
             <p>
-              ...to My Family, to Laboratoria and to my Laboratoria's partners.
+              ...a mi familia, a Laboratoria y a mis compñeras.
             </p>
           </MDBCol>
           <MDBCol md="6">

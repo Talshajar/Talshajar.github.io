@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 import Header from './Header';
 import Navigation from '../components/Navigation';
-import Home from './Home';
 import Summary from './Summary';
 import SkillsList from './SkillsList';
 import EducationHistory from './EducationHistory';
@@ -24,7 +23,7 @@ top: 0; /* Posicionamos la cabecera pegada arriba */
 position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 `
 const MainBodyStyled = styled.div`
-margin-top: 200px;
+margin-top: 100px;
 margin-bottom: 200px;
 margin-left:330px;
 `
@@ -39,13 +38,12 @@ class PortfolioContent extends Component {
         return (
             <div className="portfolio-content">
 
-                <MainHeaderStyled>
+                <MainHeaderStyled  className="sticky-top">
                     <Header />
                     <Navigation />
                 </MainHeaderStyled>
 
 <MainBodyStyled>
-                <Home  />
                 </MainBodyStyled>                
 
                 <Summary/>

@@ -3,11 +3,12 @@ export const skills = [
   'Javascript',
   'React',
   'Visual Merchandising',
+  'Marketing Digital',
   'UX',
   'CRO',
   'Metodologias Agiles',
   'SCRUM',
-  'otra cosa',
+  'Firebase',
 ]
 
 

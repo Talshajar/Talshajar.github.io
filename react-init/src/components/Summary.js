@@ -11,7 +11,7 @@ class Summary extends Component {
                      aporta a mi carrera en tecnologia, la visión de atención a los detalles para que 
                      los productos logren conectar con las necesidades de los usuarios.
                      Si estas interesado en mi trabajo no dudes en mandarme un mensaje a contact@rociochavoya.com <p>
-                         <strong>Have a nice {weekday()}</strong></p>  </p> 
+                         <strong>Ten un {weekday()} fantástico</strong></p>  </p> 
                
             </section>
         )  

@@ -10,14 +10,9 @@ background-color: white;
 
 const Navigation = () => (
   <BrowserRouter>
-<NAV>
+<NAV >
     <MDBNav className="justify-content-center">
-       <MDBNavItem>
-            <MDBNavLink> 
-                <Link to={"#HomeId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Home </Link>
-            </MDBNavLink>
-      </MDBNavItem>
-
+  
       <MDBNavItem>
             <MDBNavLink> 
                 <Link to={"#aboutMeId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > About me </Link>
@@ -32,12 +27,8 @@ const Navigation = () => (
 
       <MDBNavItem>
              <MDBNavLink> 
-                <Link to={"#ContactPageId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Get in touch </Link>
+                <Link to={"#ContactId"} scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })} > Get in touch </Link>
             </MDBNavLink>
-      </MDBNavItem>
-
-      <MDBNavItem>
-        <MDBNavLink to="#!"> Blog </MDBNavLink>
       </MDBNavItem>
     </MDBNav>
     </NAV>
