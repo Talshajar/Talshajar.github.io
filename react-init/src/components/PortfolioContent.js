@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { genericHashLink } from 'react-router-hash-link';
 
-import Header from './Header';
+
 import Navigation from '../components/Navigation';
 import Summary from './Summary';
 import SkillsList from './SkillsList';
@@ -39,7 +39,6 @@ class PortfolioContent extends Component {
             <div className="portfolio-content">
 
                 <MainHeaderStyled  className="sticky-top">
-                    <Header />
                     <Navigation />
                 </MainHeaderStyled>
 
