@@ -9,7 +9,7 @@ const FooterPage = () => {
           <MDBCol md="6">
             <h5 className="title" id="ContactId">Especiales gracias:</h5>
             <p>
-              ...a mi familia, a Laboratoria y a mis compñeras.
+              ...a mi familia, a Laboratoria y a mis compañeras.
             </p>
           </MDBCol>
           <MDBCol md="6">

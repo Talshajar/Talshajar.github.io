@@ -11,7 +11,7 @@ background-color: white;
 const Navigation = () => (
   <BrowserRouter>
 <NAV >
-    <MDBNav className="justify-content-center">
+    <MDBNav className="justify-content-center" >
   
       <MDBNavItem>
             <MDBNavLink> 

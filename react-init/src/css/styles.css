@@ -2,7 +2,9 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Poppins"; }
+  font-family: "Poppins";
+
+ }
 
 img {
   width: 100%;
@@ -129,36 +131,3 @@ div.col-md-6 {
   display: flex;
   justify-content: center;
 }
-
-.contactinfo__single {
-  line-height: initial;
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
-  padding: 5px;
-  text-decoration: none; }
-
-.contactinfo__single:hover {
-  background: url("../images/grey.png"); }
-  .contactinfo__single:hover .contactinfo__title {
-    color: #00BCD4; }
-
-.contactinfo__title {
-  color: #aaa;
-  display: inline-block;
-  align-content: center;
-  vertical-align: middle;
-  width: 100%;
-  font-weight: 300;
-  width: 90%; }
-
-.contactinfo__icon {
-  display: inline-block;
-  align-content: end;
-  vertical-align: middle;
-  color: #E7AAA5;
-  text-align: center;
-  font-size: 32px;
-  width: 8%; }
-

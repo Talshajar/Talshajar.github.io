@@ -28,10 +28,10 @@ const ProjectsPage = () => {
               <p className="pb-3">
               Red Social con autenticación de usuarios y roles, usa base de datos de Firebase. Crea, Lee, Edita y borra comentarios en tiempo real. Estructurado con ReactJS.
               </p>
-              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL002-framework-social-network">
+              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL002-framework-social-network" target='_blank'>
                 <MDBIcon className="left" /> <i class="fab fa-github"></i> Code Review
               </MDBBtn>
-              <MDBBtn color="secondary" rounded size="md" href="https://socialnetwork-81193.firebaseapp.com/signin">
+              <MDBBtn color="secondary" rounded size="md" href="https://socialnetwork-81193.firebaseapp.com/" target='_blank'>
                 <MDBIcon className="left" /> <i class="fas fa-desktop"></i> Demo Review
               </MDBBtn>
             </div>
@@ -58,10 +58,10 @@ const ProjectsPage = () => {
               <p className="pb-3">
               Web App para registro de visitantes en tiempo real en Firebase.
               </p>
-              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL002-visitors">
+              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL002-visitors" target='_blank'>
                 <MDBIcon className="left" /> <i class="fab fa-github"></i> Code Review
               </MDBBtn>
-              <MDBBtn color="secondary" rounded size="md" href="https://ihost-6a2e2.firebaseapp.com/">
+              <MDBBtn color="secondary" rounded size="md" href="https://ihost-6a2e2.firebaseapp.com/" target='_blank'>
                 <MDBIcon className="left" /> <i class="fas fa-desktop"></i> Demo Review
               </MDBBtn>
             </div>
@@ -88,10 +88,10 @@ const ProjectsPage = () => {
               <p className="pb-3">
               Wep app para registro de asistencia a través de códigos QR. Herramientas: Javascript, CSS y Firebase.
               </p>
-              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL-open-house">
+              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL-open-house" target='_blank'>
                 <MDBIcon className="left" /> <i class="fab fa-github"></i> Code Review
               </MDBBtn>
-              <MDBBtn color="secondary" rounded size="md" href="https://openhouse-e0266.firebaseapp.com/">
+              <MDBBtn color="secondary" rounded size="md" href="https://openhouse-e0266.firebaseapp.com/" target='_blank'>
                 <MDBIcon className="left" /> <i class="fas fa-desktop"></i> Demo Review
               </MDBBtn>
             </div>
