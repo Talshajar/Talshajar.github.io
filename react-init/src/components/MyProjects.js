@@ -5,7 +5,7 @@ import '../css/carousel.css';
 const ProjectsPage = () => {
   return (
 <div>
-    <h2 className="categories__title">Portafolio</h2>
+    <h2 className="categories__title">... some projetcs</h2>
 
 
     <section className="carousel">
