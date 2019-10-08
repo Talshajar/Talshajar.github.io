@@ -1,106 +1,56 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBCard, MDBIcon, MDBBtn  } from "mdbreact";
+import '../css/carousel.css';
+
 
 const ProjectsPage = () => {
   return (
-    <section className="text-center my-5">
-    <h2 className="h1-responsive font-weight-bold my-5" id="superProjectsId">
-      Proyectos
-    </h2>
-    <p className="grey-text w-responsive mx-auto mb-5">
-     Estos son algunos de mis proyectos:
-    </p>
+<div>
+    <h2 className="categories__title">Portafolio</h2>
 
-    <MDBRow>
-      <MDBCol md="12" className="mb-4">
-        <MDBCard
-          className="card-image"
-          style={{
-            backgroundImage:
-              "url(https://drive.google.com/uc?export=view&id=1w9-auimsC49l2TjCSNaBXoCE1m0qCB-e)"
-          }}
-        >
-          <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-            <div>
-              <h3 className="py-3 font-weight-bold">
-                <strong>One Social Network</strong>
-              </h3>
-              <p className="pb-3">
-              Red Social con autenticación de usuarios y roles, usa base de datos de Firebase. Crea, Lee, Edita y borra comentarios en tiempo real. Estructurado con ReactJS.
-              </p>
-              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL002-framework-social-network" target='_blank'>
-                <MDBIcon className="left" /> <i class="fab fa-github"></i> Code Review
-              </MDBBtn>
-              <MDBBtn color="secondary" rounded size="md" href="https://socialnetwork-81193.firebaseapp.com/" target='_blank'>
-                <MDBIcon className="left" /> <i class="fas fa-desktop"></i> Demo Review
-              </MDBBtn>
+
+    <section className="carousel">
+        <div className="carousel__container">
+      
+          <div className="carousel-item">
+            <img className="carousel-item__img" src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="poster"  />
+            <div className="carousel-item__details">
+              <div>
+                <img className="carousel-item__details--img" src="https://img.icons8.com/flat_round/64/000000/play--v5.png" alt="vector" />
+                <img className="carousel-item__details--img" src="https://img.icons8.com/flat_round/64/000000/plus--v5.png" alt="vector" />
+              </div>
+              <p className="carousel-item__details--title">Título descriptivo</p>
+              <p className="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
             </div>
           </div>
-        </MDBCard>
-      </MDBCol>
-     
-    </MDBRow>
-
-    <MDBRow>
-      <MDBCol md="12" className="mb-4">
-        <MDBCard
-          className="card-image"
-          style={{
-            backgroundImage:
-              "url(https://mdbootstrap.com/img/Photos/Others/project4.jpg)"
-          }}
-        >
-          <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-            <div>
-              <h3 className="py-3 font-weight-bold">
-                <strong>Visitors Plesk</strong>
-              </h3>
-              <p className="pb-3">
-              Web App para registro de visitantes en tiempo real en Firebase.
-              </p>
-              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL002-visitors" target='_blank'>
-                <MDBIcon className="left" /> <i class="fab fa-github"></i> Code Review
-              </MDBBtn>
-              <MDBBtn color="secondary" rounded size="md" href="https://ihost-6a2e2.firebaseapp.com/" target='_blank'>
-                <MDBIcon className="left" /> <i class="fas fa-desktop"></i> Demo Review
-              </MDBBtn>
+    
+          <div className="carousel-item">
+            <img className="carousel-item__img" src="https://images.pexels.com/photos/1427741/pexels-photo-1427741.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="poster"  />
+            <div className="carousel-item__details">
+              <div>             
+                <img className="carousel-item__details--img" src="https://img.icons8.com/flat_round/64/000000/play--v5.png" alt="vector" />
+                <img className="carousel-item__details--img" src="https://img.icons8.com/flat_round/64/000000/plus--v5.png" alt="vector" />
+              </div>
+              <p className="carousel-item__details--title">Título descriptivo</p>
+              <p className="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
             </div>
           </div>
-        </MDBCard>
-      </MDBCol>
-     
-    </MDBRow>
-
-    <MDBRow>
-      <MDBCol md="12" className="mb-4">
-        <MDBCard
-          className="card-image"
-          style={{
-            backgroundImage:
-              "url(https://drive.google.com/uc?export=view&id=1OxalmM2IysHMwCvoUO0FqZOei3Kf0kYo)"
-          }}
-        >
-          <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-            <div>
-              <h3 className="py-3 font-weight-bold">
-                <strong>Organa</strong>
-              </h3>
-              <p className="pb-3">
-              Wep app para registro de asistencia a través de códigos QR. Herramientas: Javascript, CSS y Firebase.
-              </p>
-              <MDBBtn color="secondary" rounded size="md" href="https://github.com/rociochavoya/GDL-open-house" target='_blank'>
-                <MDBIcon className="left" /> <i class="fab fa-github"></i> Code Review
-              </MDBBtn>
-              <MDBBtn color="secondary" rounded size="md" href="https://openhouse-e0266.firebaseapp.com/" target='_blank'>
-                <MDBIcon className="left" /> <i class="fas fa-desktop"></i> Demo Review
-              </MDBBtn>
+    
+          <div className="carousel-item">
+            <img className="carousel-item__img" src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="poster"  />
+            <div className="carousel-item__details">
+              <div>             
+                <img className="carousel-item__details--img" src="https://img.icons8.com/flat_round/64/000000/play--v5.png" alt="vector" />
+                <img className="carousel-item__details--img" src="https://img.icons8.com/flat_round/64/000000/plus--v5.png" alt="vector" />
+              </div>
+              <p className="carousel-item__details--title">Título descriptivo</p>
+              <p className="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
             </div>
           </div>
-        </MDBCard>
-      </MDBCol>
-     
-    </MDBRow>
-  </section>
+
+    
+        </div>
+      </section>
+      </div>
   );
 }
 
